@@ -16,3 +16,5 @@ INSERT INTO users (email, full_name) VALUES
 ('jane.smith@example.com', 'Jane Smith'),
 ('bob.wilson@example.com', 'Bob Wilson')
 ON CONFLICT (email) DO NOTHING;
+
+

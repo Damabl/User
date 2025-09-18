@@ -18,3 +18,5 @@ public interface UserMapper {
     void updateEntity(CreateUserDto createUserDto, @org.mapstruct.MappingTarget User user);
 }
 
+
+
