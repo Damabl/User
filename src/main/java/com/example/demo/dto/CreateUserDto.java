@@ -8,7 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CreateUserDto {
+    private String username;
     private String email;
-    private String fullName;
+    private String firstName;
+    private String lastName;
+    private String fullName; // Для обратной совместимости
 }
 

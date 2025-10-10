@@ -18,3 +18,15 @@ INSERT INTO users (email, full_name) VALUES
 ON CONFLICT (email) DO NOTHING;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
